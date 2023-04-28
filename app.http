@@ -1,0 +1,18 @@
+###
+POST http://localhost:3000/register/
+constent-type : application/json
+{
+  "username": "adam_richard",q
+  "password": "richard_567",
+  "name": "Adam Richard",
+  "gender": "male"
+
+}
+
+###
+POST http://localhost:3000//login/
+Content-Type: application/json
+{
+  "username":"JoeBiden",
+  "password":"biden@123"
+}
